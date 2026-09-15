@@ -12,7 +12,7 @@ int main() {
 
 
    // Variable declaration
-   int fahr, celsius;
+   float fahr, celsius;
    int lower, upper, step;
 
 
@@ -28,8 +28,8 @@ int main() {
    
    fahr = lower;
    while(fahr <= upper) {
-      celsius = 5 * (fahr - 32) / 9;
-      printf("%-10d | \t%d\n", fahr, celsius);
+      celsius = (5.0 / 9.0) * (fahr - 32.0);
+      printf("%10.0f |\t%3.1f\n", fahr, celsius);
       fahr = fahr + step; 
    }
 
