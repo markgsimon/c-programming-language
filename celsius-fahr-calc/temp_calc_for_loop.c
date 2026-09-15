@@ -1,8 +1,11 @@
 #include <stdio.h> 
 
 
+#define   UPPER   300   // upper temperature limit
+#define   LOWER   0     // lower temp limit
+#define   STEP   20     // finite difference in temp sequence
 
-int main() {
+ int main() {
 
 
    /* Basic for loop implementation of a temperature converter*/
